@@ -1,0 +1,95 @@
+.box {
+  position: relative;
+  width: 360px;
+  height: 640px;
+}
+
+.box .frontend-QR-code {
+  position: fixed;
+  width: 360px;
+  height: 640px;
+  top: 0;
+  left: 0;
+}
+
+.box .mobile {
+  position: relative;
+  height: 640px;
+  background-color: #d5e1ef;
+  overflow: scroll;
+}
+
+.box .QR-code {
+  position: absolute;
+  width: 279px;
+  height: 384px;
+  top: 95px;
+  left: 42px;
+}
+
+.box .overlap-group {
+  position: relative;
+  width: 275px;
+  height: 384px;
+  background-color: #fbfbff;
+  border-radius: 15px;
+}
+
+.box .improve-your-front {
+  position: absolute;
+  top: 265px;
+  left: 44px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .image-qr-code {
+  position: absolute;
+  width: 245px;
+  height: 238px;
+  top: 15px;
+  left: 15px;
+  object-fit: cover;
+}
+
+.box .scan-the-QR-code-to {
+  position: absolute;
+  top: 315px;
+  left: 39px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 500;
+  color: #a1a3a6;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .challenge-by {
+  position: absolute;
+  top: 604px;
+  left: 6px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 500;
+  color: #76797d;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper {
+  font-family: "Outfit", Helvetica;
+  font-weight: 500;
+  color: #76797d;
+  font-size: 15px;
+  letter-spacing: 0;
+}
+
+.box .span {
+  text-decoration: underline;
+}
